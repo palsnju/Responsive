@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Raja Bakery</title>
+<title>LogIn</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap.css.map" rel="stylesheet">
@@ -11,17 +12,8 @@
 <link href="css/bootstrap-theme.css.map" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css.map" rel="stylesheet">
-<style>
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   
-}
-</style>
+<link href="css/index.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -38,7 +30,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">Special <span class="sr-only">(current)</span></a>
@@ -67,21 +59,56 @@
         <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link disabled" href="admin.html">Admin</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0" action="">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
-<div class="footer">
-  <p>Footer</p>
-</div>
+
+
+
+
+
+  <div class="row">
+    
+  
+    <div id="container">
+      <div id="logo_bar">
+       
+      <div id="form_box">
+        <form action="masterControl.html" target=”_blank” >
+          <p id="form_heading">Login Form</p>
+          <input type="email" placeholder="Enter Email"><br />
+          <input type="password" placeholder="Enter Password"><br />
+          <input type="checkbox" id="checkbox"><label for="checkbox" style="color:white; font-size:15px;">Remember Me</label><br />
+          <input type="submit" value="Login"><br />
+          <a id="font_20">Forgot your Password?</a><br /><br />
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+
+<!-- Footer -->
+<div class="navi">
+<pre>@ Developed by: Danish Sharma, Sanjay Pal</pre>
+	
+	</div>
+
+
+<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+ <script src="js/my.js"></script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
