@@ -31,3 +31,21 @@
 	$('.hide-list').click(function(){
 		$('.wrapper').removeClass('list-mode');
 	});
+	
+	
+	/*creative boxes for admin*/
+	$('.box1').click(function() {
+		  $(this).toggleClass('selected');
+		  
+		});
+	/*end*/
+	
+	/*master popup*/
+	
+	$("#fixed-form-container .body").hide();
+	$("#fixed-form-container .button").click(function () {
+	        $(this).next("#fixed-form-container div").slideToggle(400);
+	        $(this).toggleClass("expanded");
+	    });
+	
+	
